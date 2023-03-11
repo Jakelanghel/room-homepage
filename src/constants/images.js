@@ -8,12 +8,12 @@ import mobileHeroImg3 from "../assets/mobile-image-hero-3.jpg";
 import aboutDarkImg from "../assets/image-about-dark.jpg";
 import aboutLightImg from "../assets/image-about-light.jpg";
 
-import angleLeft from "../assets/icons-angle-left.svg";
-import angleRight from "../assets/icons-angle-right.svg";
-import arrowIcon from "../assets/icons-arrow.svg";
-import closeIcon from "../assets/icons-close.svg";
-import hamburger from "../assets/icons-hamburger.svg";
-import logo from "../about/logo.svg";
+import angleLeft from "../assets/icon-angle-left.svg";
+import angleRight from "../assets/icon-angle-right.svg";
+import arrowIcon from "../assets/icon-arrow.svg";
+import closeIcon from "../assets/icon-close.svg";
+import hamburger from "../assets/icon-hamburger.svg";
+import logo from "../assets/logo.svg";
 
 export const images = {
   desktopHeroImg1,

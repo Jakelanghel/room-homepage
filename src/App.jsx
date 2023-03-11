@@ -1,9 +1,14 @@
 import React from "react";
+import { GlobalStyles } from "./components/shared/Global";
+import Nav from "./components/nav/Nav";
+import Slider from "./components/slider/Slider";
 
 function App() {
   return (
     <div>
-      <p>Clean React App</p>
+      <GlobalStyles />
+      <Nav />
+      <Slider />
     </div>
   );
 }
