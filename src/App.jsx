@@ -1,14 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import { GlobalStyles } from "./components/shared/Global";
 import Nav from "./components/nav/Nav";
-import Slider from "./components/slider/Slider";
+import Hero from "./components/hero/Hero";
+import About from "./components/about/About";
 
 function App() {
   return (
     <div>
       <GlobalStyles />
       <Nav />
-      <Slider />
+      <Hero />
+      <About />
     </div>
   );
 }

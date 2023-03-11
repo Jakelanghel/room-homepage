@@ -4,7 +4,7 @@ export const StyledSliderActions = styled.div`
   display: flex;
   justify-content: space-between;
   position: absolute;
-  bottom: 5px;
+  bottom: 0;
   right: 0;
 
   background-color: var(--black);

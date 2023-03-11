@@ -15,4 +15,8 @@ export const GlobalStyles = createGlobalStyle`
         font-family: 'League Spartan', sans-serif;   // 500 600 700
 
     }
+
+    img {
+        display: block;
+    }
 `;
