@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { StyledContainerCopy } from "../shared/ContainerCopy";
 import { images } from "../../constants/images";
-import Slider from "../slider/Slider";
+import Slider from "./slider/Slider";
 import { StyledHero } from "./Hero.Styled";
 import { data } from "../../data/data";
 
@@ -22,10 +22,10 @@ const Hero = () => {
         currentSlide={currentSlide}
         setCurrentSlide={setCurrentSlide}
       />
-      <StyledContainerCopy>
+      <StyledContainerCopy className="container-copy">
         <h1>{copyArr[currentSlide].title}</h1>
         <p>{copyArr[currentSlide].body}</p>
-        <button>
+        <button className="shop-now-btn">
           shop now <img src={images.arrowIcon} alt="" />
         </button>
       </StyledContainerCopy>

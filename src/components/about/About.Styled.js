@@ -9,4 +9,8 @@ export const StyledAbout = styled.div`
   img {
     width: 100%;
   }
+
+  @media screen and (min-width: 900px) {
+    display: flex;
+  }
 `;

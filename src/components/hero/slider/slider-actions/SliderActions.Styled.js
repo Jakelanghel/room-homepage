@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const StyledSliderActions = styled.div`
+  width: 125px;
   display: flex;
   justify-content: space-between;
   position: absolute;
@@ -21,5 +22,9 @@ export const StyledSliderActions = styled.div`
 
   img {
     width: 9px;
+  }
+
+  @media screen and (min-width: 900px) {
+    right: -125px;
   }
 `;

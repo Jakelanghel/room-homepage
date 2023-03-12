@@ -7,5 +7,13 @@ export const StyledSlider = styled.div`
 
   .slider-img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media screen and (min-width: 900px) {
+    .slider-img {
+      object-position: left center;
+    }
   }
 `;

@@ -7,6 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
     --very-dark-gray: hsl(0, 0%, 27%);
+    --nav-backdrop: rgba(0, 0, 0, .5)
 }
     * {
         margin: 0;
