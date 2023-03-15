@@ -7,7 +7,7 @@ export const GlobalStyles = createGlobalStyle`
     --black: hsl(0, 0%, 0%);
     --white: hsl(0, 0%, 100%);
     --very-dark-gray: hsl(0, 0%, 27%);
-    --nav-backdrop: rgba(0, 0, 0, .5)
+    --nav-backdrop: rgba(0, 0, 0, .5);
 }
     * {
         margin: 0;
@@ -17,7 +17,17 @@ export const GlobalStyles = createGlobalStyle`
 
     }
 
+    html,
+    body {
+        height: 100%;
+        height: 100vh;
+    }
+
     img {
         display: block;
+    }
+
+    .container-app {
+        height: 100vh;
     }
 `;

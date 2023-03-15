@@ -5,6 +5,10 @@ export const StyledNav = styled.nav`
   display: flex;
   padding: 3rem 2rem;
 
+  .desktop-menu {
+    display: none;
+  }
+
   position: fixed;
   z-index: 1;
 
@@ -43,5 +47,21 @@ export const StyledNav = styled.nav`
   img,
   a:hover {
     cursor: pointer;
+  }
+
+  @media screen and (min-width: 900px) {
+    .menu-icon {
+      display: none;
+    }
+
+    .container-logo {
+      margin: 0;
+    }
+
+    .desktop-menu {
+      display: flex;
+      gap: 2rem;
+      margin-left: 5rem;
+    }
   }
 `;

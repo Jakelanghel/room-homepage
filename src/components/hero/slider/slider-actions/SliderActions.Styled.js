@@ -18,6 +18,7 @@ export const StyledSliderActions = styled.div`
 
   button:hover {
     cursor: pointer;
+    background-color: #444444;
   }
 
   img {
@@ -25,6 +26,15 @@ export const StyledSliderActions = styled.div`
   }
 
   @media screen and (min-width: 900px) {
-    right: -125px;
+    width: 175px;
+    right: -175px;
+
+    button {
+      padding: 1.5rem 2.25rem;
+    }
+
+    img {
+      width: 15px;
+    }
   }
 `;

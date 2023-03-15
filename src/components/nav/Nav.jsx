@@ -23,6 +23,13 @@ const Nav = () => {
         <img src={images.logo} alt="room" className="logo" />
       </div>
 
+      <div className="desktop-menu">
+        <a href="#">home</a>
+        <a href="#">shop</a>
+        <a href="#">about</a>
+        <a href="#">contact</a>
+      </div>
+
       {navIsOpen ? (
         <MobileDropDown
           handleClick={handleClick}

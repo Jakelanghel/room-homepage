@@ -9,7 +9,7 @@ const About = () => {
         <img src={images.aboutDarkImg} alt="" />
       </div>
 
-      <StyledContainerCopy>
+      <StyledContainerCopy className="copy">
         <h2>about our furniture</h2>
         <p>
           Our multifunctional collection blends design and function to suit your

@@ -8,9 +8,11 @@ function App() {
   return (
     <>
       <GlobalStyles />
-      <Nav />
-      <Hero />
-      <About />
+      <div className="container-app">
+        <Nav />
+        <Hero />
+        <About />
+      </div>
     </>
   );
 }
