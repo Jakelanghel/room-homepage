@@ -45,4 +45,10 @@ export const StyledHero = styled.main`
       margin: 2rem 0;
     }
   }
+
+  @media screen and (min-width: 1400px) {
+    .container-copy {
+      padding: 8rem 5rem;
+    }
+  }
 `;

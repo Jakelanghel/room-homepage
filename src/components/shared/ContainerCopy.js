@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledContainerCopy = styled.div`
   padding: 3rem 1.5rem;
+  max-width: 1000px;
 
   h1,
   h2 {
@@ -21,9 +22,20 @@ export const StyledContainerCopy = styled.div`
   }
 
   p {
-    min-height: 160px;
     font-size: 1rem;
     line-height: 1.35rem;
     color: var(--dark-gray);
+  }
+
+  @media screen and (min-width: 1400px) {
+    h1 {
+      font-size: 2.75rem;
+      max-width: 400px;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.75rem;
+    }
   }
 `;

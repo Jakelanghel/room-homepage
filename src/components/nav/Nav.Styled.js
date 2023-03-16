@@ -3,7 +3,8 @@ import styled from "styled-components";
 export const StyledNav = styled.nav`
   width: 100%;
   display: flex;
-  padding: 3rem 2rem;
+  align-items: center;
+  padding: 2rem;
 
   .desktop-menu {
     display: none;
@@ -28,8 +29,9 @@ export const StyledNav = styled.nav`
 
   .container-flex {
     display: flex;
+    gap: 0.5rem;
     justify-content: space-between;
-    padding: 3rem 2rem;
+    padding: 2rem 1rem;
     background-color: var(--white);
   }
 
@@ -38,10 +40,20 @@ export const StyledNav = styled.nav`
     gap: 1.25rem;
   }
 
+  img,
+  a {
+    padding: 1rem 0.5rem;
+  }
+
   a {
     text-decoration: none;
     font-size: 1rem;
     font-weight: 700;
+    border-bottom: solid 2px transparent;
+  }
+
+  a:hover {
+    border-bottom: solid 2px var(--white);
   }
 
   img,
@@ -54,6 +66,10 @@ export const StyledNav = styled.nav`
       display: none;
     }
 
+    .logo {
+      width: 75px;
+    }
+
     .container-logo {
       margin: 0;
     }
@@ -62,6 +78,15 @@ export const StyledNav = styled.nav`
       display: flex;
       gap: 2rem;
       margin-left: 5rem;
+
+      a {
+        font-size: 1.15rem;
+        color: var(--white);
+      }
     }
+  }
+
+  @media screen and (min-width: 1100px) {
+    padding: 4rem 3.5rem;
   }
 `;
