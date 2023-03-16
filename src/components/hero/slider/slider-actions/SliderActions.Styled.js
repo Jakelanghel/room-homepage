@@ -26,11 +26,11 @@ export const StyledSliderActions = styled.div`
   }
 
   @media screen and (min-width: 900px) {
-    width: 175px;
-    right: -175px;
+    width: 161px;
+    right: -161px;
 
     button {
-      padding: 1.5rem 2.25rem;
+      padding: 1.5rem 2rem;
     }
 
     img {

@@ -17,6 +17,7 @@ export const StyledAbout = styled.div`
 
     .copy {
       width: 45%;
+      margin: 0 auto;
     }
 
     .container-about-img {
@@ -27,6 +28,15 @@ export const StyledAbout = styled.div`
     img {
       min-height: 100%;
       object-fit: cover;
+    }
+
+    p,
+    h2 {
+      margin: 0 auto;
+    }
+
+    p {
+      margin-top: 1rem;
     }
   }
 `;

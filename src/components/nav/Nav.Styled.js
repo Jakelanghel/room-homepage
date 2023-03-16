@@ -87,6 +87,6 @@ export const StyledNav = styled.nav`
   }
 
   @media screen and (min-width: 1100px) {
-    padding: 4rem 3.5rem;
+    padding: 2.5rem 3.5rem;
   }
 `;

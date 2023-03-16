@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const StyledHero = styled.main`
   width: 100%;
+  min-height: 70%;
 
   .shop-now-btn {
     display: flex;
@@ -30,7 +31,7 @@ export const StyledHero = styled.main`
 
   @media screen and (min-width: 900px) {
     display: flex;
-    min-height: 70%;
+    max-height: 625px;
 
     .slider {
       width: 60%;
@@ -42,7 +43,7 @@ export const StyledHero = styled.main`
     }
 
     .shop-now-btn {
-      margin: 2rem 0;
+      margin: 4rem 0;
     }
   }
 

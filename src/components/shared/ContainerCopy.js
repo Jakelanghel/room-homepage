@@ -22,15 +22,19 @@ export const StyledContainerCopy = styled.div`
   }
 
   p {
+    max-width: 525px;
     font-size: 1rem;
     line-height: 1.35rem;
     color: var(--dark-gray);
   }
 
-  @media screen and (min-width: 1400px) {
+  @media screen and (min-width: 1200px) {
     h1 {
       font-size: 2.75rem;
       max-width: 400px;
+    }
+    h2 {
+      max-width: 525px;
     }
 
     p {
